@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="playMusic()" onload="prepareMusic()">
+    <div class="container">
+        <h1>**Barakallah Fii Umrik*  </h1>
+        <p><h3>SALFA SYAKILA PUJAYA,</h3></p>
+        <p></p>
+        
+        <!-- Foto Ulang Tahun -->
+        <img src="photo.jpeg" alt="Foto Ulang Tahun" class="birthday-photo">
+
+        <!-- Audio Ulang Tahun -->
+        <audio id="birthdayMusic" src="birthday_music.mp3" loop></audio>
+        
+        <!-- Pesan Spesial -->
+        <P> <button onclick="revealMessage()">Klik untuk pesan spesial 🎉</button></P>
+        <div id="message" class="hidden-message">
+            <p>"Happy Birthday capao bakpao!"</p> 
+            <p> I pray that God will always protect you, </p>
+            <p> give you happiness, health,</p> 
+            <p> and success in every step you take.</p> 
+            <p> I will always be there for you when you are alone"</p>
+            <p> and will always be in my prayers</p>
+            <p>Ingatlah Sal..</p>
+            <p>Jangan Terlalu Menyesali Masa Lalu</p>
+            <p>Jangan terlalu menghawatirkan masa depan</p>
+            <p>Cobalah untuk bisa menikmati hari ini</p>
+            <p>Karena...</p>
+            <p>Kunci bahagia </p>
+            <p>**ada pada dirimu sendiri**</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
